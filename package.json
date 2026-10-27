@@ -1,0 +1,15 @@
+{
+  "name": "ueh_schedule",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lấy lịch học từ student.ueh.edu.vn",
+  "scripts": {
+    "start": "node fetch-schedule.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright-core": "^1.56.1"
+  }
+}
